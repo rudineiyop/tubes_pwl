@@ -1,0 +1,20 @@
+info login 
+
+admin : ruthgracea
+pass : halodunia
+
+author :
+
+fenayacecily : haloalam
+sintongsutanto : sintong
+auliaol : halopohon
+dipadipsy : halodunia
+
+info run website : 
+- php artisan migrate
+- php artisan run dev
+- php artisan storage:link (sebelumnya hapus dulu storage di folder public) jika gambar tidak muncul.
+- php artisan serve
+
+
+arigatou gozaimasu "^"

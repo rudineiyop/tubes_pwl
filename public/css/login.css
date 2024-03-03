@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'cerpen';
+    src: url(../fonts/Magical\ Feather.ttf);
+}
+
+@font-face {
+    font-family: 'cerpen2';
+    src: url(../fonts/FuturaHandwritten.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/Gif2.gif);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+    width: 500px;
+    background: rgba(0,0,0,0,8);
+    margin: 4% auto;
+    padding: 15px 0;
+    color: #fff;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
+
+h1{
+    font-family: "cerpen", sans-serif;
+    color: rgba(228, 159, 159, 0.76);
+    text-align: center;
+    
+}
+
+h4{
+    font-family: "cerpen2", sans-serif;
+    color:  rgba(228, 159, 159, 0.76);
+    text-align: center;
+   
+}
+
+.input-box{
+    margin: 31px auto ;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.input-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+::placeholder{
+    color: #ccc;
+}
+
+.fa{
+    margin-right: 10px;
+}
+
+.eye{
+    position: absolute;
+}
+
+#hide1{
+    display: none;
+}
+
+.login-btn{
+    margin:  auto;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+a.forgot-password {
+    color: #fff;
+    float: right;
+    margin-bottom: 30px;
+    margin-right: 35px;
+  }
+
+a.sign-up{
+    color: #fff;
+    margin: 25px 0 10px;
+}
+  
+  
+
